@@ -8,7 +8,8 @@ while(1)
     echo "2 -> Substration\n";
     echo "3 -> Multiplication\n";
     echo "4 -> Division\n";
-    echo "5 -> Exit\n";
+    echo "5 -> Exponential\n";
+    echo "6 -> Exit\n";
 
     $ch = readline("enter your choice: ");
     switch($ch)
@@ -17,7 +18,8 @@ while(1)
         case 2: echo ($x-$y); echo "\n"; break;
         case 3: echo ($x*$y); echo "\n";break;
         case 4: echo ($x/$y); echo "\n";break;
-        case 5: exit();   
+        case 5: echo ($x**$y); echo "\n";break;
+        case 6: exit();   
         default: echo "enter choice carefully";
 
     }
